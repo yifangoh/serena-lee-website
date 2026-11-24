@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#1d1c1a">
 <title>Serena Lee Photography</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,33 +13,17 @@
   /* Layout idea: one calm column of generous space; the photos are the only loud thing.
      Hero is sized to its content so the first portfolio row peeks in under it. */
   :root {
-    --bg: #e8e5df;
-    --ink: #2a2926;
-    --muted: #6a665e;
-    --accent: #4e5a45;
-    --accent-ink: #f1eee8;
-    --line: #cfcac1;
-    --ph1: #d6d0c6; --ph2: #c9c3b9; --ph3: #d9d3c9;
-    --ph4: #c4beb3; --ph5: #d2ccc1; --ph6: #cbc5ba;
+    --bg: #1d1c1a;
+    --ink: #ebe7df;
+    --muted: #a29d92;
+    --accent: #b7c4a6;
+    --accent-ink: #1d1c1a;
+    --line: #34322e;
+    --ph1: #2c2a27; --ph2: #34312d; --ph3: #292724;
+    --ph4: #37342f; --ph5: #2e2c28; --ph6: #332f2b;
     --font-display: "Fraunces", Georgia, "Times New Roman", serif;
     --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
     --gutter: clamp(20px, 6vw, 96px);
-    color-scheme: light;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #1d1c1a; --ink: #ebe7df; --muted: #a29d92;
-      --accent: #b7c4a6; --accent-ink: #1d1c1a; --line: #34322e;
-      --ph1: #2c2a27; --ph2: #34312d; --ph3: #292724;
-      --ph4: #37342f; --ph5: #2e2c28; --ph6: #332f2b;
-      color-scheme: dark;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #1d1c1a; --ink: #ebe7df; --muted: #a29d92;
-    --accent: #b7c4a6; --accent-ink: #1d1c1a; --line: #34322e;
-    --ph1: #2c2a27; --ph2: #34312d; --ph3: #292724;
-    --ph4: #37342f; --ph5: #2e2c28; --ph6: #332f2b;
     color-scheme: dark;
   }
 

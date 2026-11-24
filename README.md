@@ -1,6 +1,6 @@
 # serena-lee-website
 
-One-page portfolio site for Serena Lee, a freelance wedding and portrait photographer. Plain HTML and CSS, no build step.
+One-page portfolio site for Serena Lee, a freelance wedding and portrait photographer. Plain HTML and CSS, no build step. Dark theme.
 
 ## Files
 
