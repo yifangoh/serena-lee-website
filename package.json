@@ -1,0 +1,9 @@
+{
+  "name": "serena-lee-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-page portfolio site for Serena Lee, wedding and portrait photographer.",
+  "scripts": {
+    "dev": "npx --yes serve ."
+  }
+}
